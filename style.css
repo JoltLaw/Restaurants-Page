@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap');
+
+body {
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+
+}
+
+h2 {
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+h3 {
+    font-family: 'Stint Ultra Condensed', cursive;
+}
+
+p {
+    font-size: 25px;
+    font-family: 'Stint Ultra Condensed', cursive;
+}
+
+#card-Holder {
+   margin-left: 30vw;
+}
+
+.card {
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+   width: 40vw;
+   background-color: white;
+   border-radius: 8px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   box-shadow: 4px 4px 5px rgba(0, 0, 0, .2);
+   padding: 5px;
+   user-select: none;
+   cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.frame {
+    align-self: center;
+    border-radius: 100;
+    width: 40%;
+}
+
+.buisnessimg {
+    border-radius: 4%;
+    object-fit: cover;
+    width: 80%;
+}
+
